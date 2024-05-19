@@ -8,6 +8,7 @@ using System.Data.SqlClient;
 namespace DataAccess.DbAccess; 
 public class SqlDataAccess : ISqlDataAccess
 {
+
     readonly IConfiguration _config;
     public SqlDataAccess(IConfiguration config)
     {
